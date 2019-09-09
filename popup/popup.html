@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>ShowTime</title>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+			body{
+				padding: 0px;
+				margin: 0px;
+				width: 300px;
+				height: 200px;
+			}
+			h1{
+				height: 100px;
+			}
+			h1, h2 {
+				text-align: center;
+				padding-top: 35px;
+			}
+			h2{
+				background-color: #333;
+				color: white;
+				height: 100px;
+			}
+			.unselectable {
+				cursor: default;
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="unselectable">
+			<!-- <h1 class="empty"></h1> -->
+			<h1 id="time"></h1>
+			<h2 id="date"></h2>
+		</div>
+		<script type="text/javascript" src="../js/ken.js"></script>
+		<script type="text/javascript" src="./popup.js"></script>
+	</body>
+</html>
