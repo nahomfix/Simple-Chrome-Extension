@@ -1,0 +1,17 @@
+{
+	"name":"Ethiopian Calendar",
+	"description":"This is a chrome extension that displays the date and time from the Ethiopian Calendar",
+	"manifest_version": 2,
+	"version":"1.0",
+	"icons":{
+		"128":"./icons/calendar128.png",
+		"48":"./icons/calendar48.png",
+		"32":"./icons/calendar32.png",
+		"16":"./icons/calendar16.png"
+	},
+	"browser_action":{
+		"default_icon":"./icons/calendar16.png",
+        "default_title":"Ethiopian Calendar",
+        "default_popup": "./popup/popup.html"
+	}
+}
